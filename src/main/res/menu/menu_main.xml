@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.danielmalone.brunocart1.MainActivity">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/actionHome"
+            android:icon="@drawable/ic_monetization_on_black_24dp"
+            android:orderInCategory="100"
+            android:title="Home"
+            app:showAsAction="never" />
+
+        <item
+            android:id="@+id/actionJeans"
+            android:icon="@drawable/ic_monetization_on_black_24dp"
+            android:orderInCategory="100"
+            android:title="Tea"
+            app:showAsAction="never" />
+
+        <item
+            android:id="@+id/action_settings5"
+            android:icon="@drawable/ic_monetization_on_black_24dp"
+            android:orderInCategory="100"
+            android:title="@string/action_settings"
+            app:showAsAction="never" />
+
+    </group>
+
+</menu>
